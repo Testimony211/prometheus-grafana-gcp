@@ -44,3 +44,9 @@ sudo apt update
 sudo apt install docker.io docker-compose -y
 sudo usermod -aG docker $USER
 newgrp docker
+
+
+git clone https://github.com/Testimony211/prometheus-grafana-gcp.git
+cd prometheus-grafan
+
+docker compose up -d
