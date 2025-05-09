@@ -46,7 +46,10 @@ sudo usermod -aG docker $USER
 newgrp docker
 
 
-git clone https://github.com/Testimony211/prometheus-grafana-gcp.git
-cd prometheus-grafan
+### 4. Create a VM on GCP
 
-docker compose up -d
+- Use an **e2-micro** VM (Free Tier)
+- Ubuntu 22.04 LTS
+- Allow HTTP and HTTPS traffic
+- Note the external IP
+
